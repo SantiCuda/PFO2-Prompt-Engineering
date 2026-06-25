@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PFO2 — Prompt Engineering en Agentes de IA</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    .container {
+      width: 100%;
+      max-width: 680px;
+    }
+    header { text-align: center; margin-bottom: 40px; }
+    .tag {
+      display: inline-block;
+      font-size: 13px;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 14px;
+      margin-bottom: 18px;
+    }
+    h1 { font-size: 28px; font-weight: 600; margin-bottom: 10px; }
+    header p { color: var(--muted); font-size: 15px; }
+    .cards { display: flex; flex-direction: column; gap: 16px; }
+    .card {
+      display: block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px 24px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color .2s, transform .2s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .card .num {
+      font-size: 13px;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .card h2 { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+    .card p { color: var(--muted); font-size: 14px; }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="tag">IFTS N.º 29 — PFO2</span>
+      <h1>Prompt Engineering en Agentes de IA</h1>
+      <p>Una misma instrucción ejecutada en dos agentes de desarrollo autónomos</p>
+    </header>
+
+    <div class="cards">
+      <a class="card" href="prompt.txt" target="_blank">
+        <div class="num">01</div>
+        <h2>Prompt utilizado</h2>
+        <p>El texto plano de la instrucción ejecutada en ambos agentes.</p>
+      </a>
+
+      <a class="card" href="cursor_composer2.5/index.html" target="_blank">
+        <div class="num">02</div>
+        <h2>Landing — Agente 1</h2>
+        <p>Generada con Cursor · Modelo: Composer 2.5 Fast</p>
+      </a>
+
+      <a class="card" href="claudecode_sonnet4.6/index.html" target="_blank">
+        <div class="num">03</div>
+        <h2>Landing — Agente 2</h2>
+        <p>Generada con Claude Code · Modelo: Claude Sonnet 4.6</p>
+      </a>
+    </div>
+
+    <footer>
+      Santiago Cuda · Comisión Lunes · 2026
+    </footer>
+  </div>
+</body>
+</html>

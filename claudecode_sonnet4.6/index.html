@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nimbus Solutions — Cloud & Software Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================
+       HEADER / NAVEGACIÓN
+  ============================= -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">Nimbus<strong>Solutions</strong></span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#inicio"        class="nav__link">Inicio</a></li>
+        <li><a href="#sobre-nosotros" class="nav__link">Sobre Nosotros</a></li>
+        <li><a href="#servicios"     class="nav__link">Servicios</a></li>
+        <li><a href="#testimonios"   class="nav__link">Testimonios</a></li>
+        <li><a href="#contacto"      class="nav__link nav__link--cta">Contacto</a></li>
+      </ul>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================
+         HERO SECTION
+    ============================= -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg">
+        <div class="hero__grid"></div>
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+      </div>
+      <div class="hero__content container">
+        <span class="hero__badge">Transformación Digital</span>
+        <h1 class="hero__title">
+          Llevá tu empresa<br />
+          <span class="gradient-text">a la nube</span> con confianza
+        </h1>
+        <p class="hero__subtitle">
+          Diseñamos, migramos y gestionamos infraestructura cloud para empresas que buscan escalar sin límites. Tecnología de punta, acompañamiento real.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Hablemos de tu proyecto</a>
+          <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <strong>+120</strong>
+            <span>Proyectos completados</span>
+          </div>
+          <div class="hero__stat">
+            <strong>8+</strong>
+            <span>Años de experiencia</span>
+          </div>
+          <div class="hero__stat">
+            <strong>99.9%</strong>
+            <span>Uptime garantizado</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         SOBRE NOSOTROS
+    ============================= -->
+    <section class="about" id="sobre-nosotros">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Quiénes somos</span>
+          <h2 class="section-title">Expertos en transformar negocios con tecnología</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              En <strong>Nimbus Solutions</strong> creemos que la tecnología debe ser un habilitador, no un obstáculo. Desde 2016 ayudamos a empresas medianas a modernizar sus sistemas, migrar a infraestructura cloud y desarrollar software que realmente se adapta a sus procesos.
+            </p>
+            <p>
+              Nuestro equipo multidisciplinario combina arquitectos cloud certificados, ingenieros de software y especialistas en DevOps para entregar soluciones robustas, seguras y escalables. No vendemos productos genéricos: construimos junto a cada cliente.
+            </p>
+            <a href="#contacto" class="btn btn--primary">Conocé al equipo</a>
+          </div>
+
+          <div class="about__metrics reveal">
+            <div class="metric-card">
+              <div class="metric-card__icon">🚀</div>
+              <div class="metric-card__number">+120</div>
+              <div class="metric-card__label">Proyectos entregados</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-card__icon">🌎</div>
+              <div class="metric-card__number">12</div>
+              <div class="metric-card__label">Países con clientes activos</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-card__icon">👥</div>
+              <div class="metric-card__number">45+</div>
+              <div class="metric-card__label">Profesionales certificados</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-card__icon">⭐</div>
+              <div class="metric-card__number">4.9</div>
+              <div class="metric-card__label">Satisfacción promedio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         SERVICIOS
+    ============================= -->
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Lo que hacemos</span>
+          <h2 class="section-title">Servicios diseñados para escalar con vos</h2>
+          <p class="section-subtitle">Cada solución está adaptada a los desafíos reales de tu negocio.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Migración a la Nube</h3>
+            <p class="service-card__desc">Planificamos y ejecutamos migraciones seguras a AWS, Azure o GCP, minimizando el downtime y preservando la integridad de tus datos y procesos.</p>
+            <ul class="service-card__features">
+              <li>Assessment y roadmap personalizado</li>
+              <li>Migración lift-and-shift o re-arquitectura</li>
+              <li>Soporte post-migración incluido</li>
+            </ul>
+          </div>
+
+          <div class="service-card service-card--featured reveal">
+            <div class="service-card__badge">Más popular</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Desarrollo de Software</h3>
+            <p class="service-card__desc">Construimos aplicaciones web, APIs y sistemas a medida usando metodologías ágiles, con código limpio, documentado y pensado para el largo plazo.</p>
+            <ul class="service-card__features">
+              <li>Arquitectura cloud-native</li>
+              <li>Ciclos de entrega cortos (sprints)</li>
+              <li>Testing automatizado y CI/CD</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Infraestructura Gestionada</h3>
+            <p class="service-card__desc">Monitoreamos, optimizamos y mantenemos tu infraestructura 24/7 para que tu equipo se enfoque en el negocio, no en apagar incendios.</p>
+            <ul class="service-card__features">
+              <li>Monitoreo proactivo 24/7</li>
+              <li>Optimización de costos cloud</li>
+              <li>SLA con tiempo de respuesta garantizado</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Seguridad & Compliance</h3>
+            <p class="service-card__desc">Auditamos tu postura de seguridad, implementamos controles y te ayudamos a cumplir con normativas como ISO 27001, SOC2 o GDPR.</p>
+            <ul class="service-card__features">
+              <li>Auditorías de vulnerabilidades</li>
+              <li>Implementación de IAM y Zero Trust</li>
+              <li>Gestión de compliance continua</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Data & Analytics</h3>
+            <p class="service-card__desc">Convertimos tus datos en decisiones. Diseñamos pipelines, data warehouses y dashboards que dan visibilidad real a tu operación.</p>
+            <ul class="service-card__features">
+              <li>Data lakes y warehouses escalables</li>
+              <li>Dashboards en tiempo real</li>
+              <li>Machine learning aplicado al negocio</li>
+            </ul>
+          </div>
+
+          <div class="service-card reveal">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">DevOps & Automatización</h3>
+            <p class="service-card__desc">Implementamos pipelines de CI/CD, infraestructura como código (IaC) y prácticas DevOps para acelerar tus ciclos de entrega.</p>
+            <ul class="service-card__features">
+              <li>CI/CD con GitHub Actions / GitLab CI</li>
+              <li>Terraform e IaC</li>
+              <li>Containerización con Docker y Kubernetes</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         TESTIMONIOS
+    ============================= -->
+    <section class="testimonials" id="testimonios">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Testimonios</span>
+          <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+          <p class="section-subtitle">Resultados reales de empresas que apostaron por modernizarse.</p>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote">
+              "Nimbus nos ayudó a migrar toda nuestra plataforma de e-commerce a AWS en menos de 3 meses, sin interrupciones. Los costos bajaron un 35% y el rendimiento mejoró notablemente."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">MR</div>
+              <div>
+                <strong>Martina Rojas</strong>
+                <span>CTO — RetailNow</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card--highlight reveal">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote">
+              "El equipo de Nimbus no solo entregó el software a tiempo, sino que nos educó en el proceso. Hoy tenemos un sistema robusto y un equipo interno que entiende la arquitectura."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">FC</div>
+              <div>
+                <strong>Federico Castro</strong>
+                <span>CEO — Logix Corp</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote">
+              "Implementaron nuestra infraestructura gestionada con monitoreo 24/7. En 6 meses no tuvimos ni un incidente grave. La tranquilidad que eso da no tiene precio."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">LP</div>
+              <div>
+                <strong>Laura Pérez</strong>
+                <span>COO — HealthTrack SA</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <blockquote class="testimonial-card__quote">
+              "Gracias a Nimbus logramos certificarnos en ISO 27001 en tiempo récord. Su equipo de seguridad conoce cada detalle del proceso y siempre estuvo disponible."
+            </blockquote>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar">AG</div>
+              <div>
+                <strong>Andrés Gutiérrez</strong>
+                <span>CISO — FinServ Group</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         CONTACTO
+    ============================= -->
+    <section class="contact" id="contacto">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__info reveal">
+            <span class="section-tag">Contacto</span>
+            <h2 class="section-title">¿Listo para modernizar tu empresa?</h2>
+            <p>Contanos sobre tu proyecto y un especialista de nuestro equipo se comunicará con vos en menos de 24 horas hábiles.</p>
+
+            <div class="contact__details">
+              <div class="contact__detail">
+                <div class="contact__detail-icon">📍</div>
+                <div>
+                  <strong>Oficina principal</strong>
+                  <span>Av. Corrientes 1234, CABA, Argentina</span>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">✉️</div>
+                <div>
+                  <strong>Email</strong>
+                  <span>hola@nimbussolutions.io</span>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">📞</div>
+                <div>
+                  <strong>Teléfono</strong>
+                  <span>+54 11 4000-0000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contact-form" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name">Nombre completo *</label>
+                <input type="text" id="name" name="name" placeholder="Juan García" required />
+              </div>
+              <div class="form__group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="juan@empresa.com" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="subject">Asunto *</label>
+              <input type="text" id="subject" name="subject" placeholder="Quiero conocer más sobre migración cloud" required />
+            </div>
+            <div class="form__group">
+              <label for="message">Mensaje *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Contanos sobre tu proyecto, tamaño del equipo, plazos..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">
+              <span>Enviar mensaje</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+            </button>
+            <div class="form__success" id="form-success" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================
+       FOOTER
+  ============================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#inicio" class="nav__logo">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">Nimbus<strong>Solutions</strong></span>
+          </a>
+          <p>Transformamos empresas medianas a través de tecnología cloud y software a medida. Confianza, experiencia y resultados.</p>
+          <div class="footer__social">
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-link" aria-label="GitHub">gh</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Migración Cloud</a></li>
+            <li><a href="#servicios">Desarrollo de Software</a></li>
+            <li><a href="#servicios">Infraestructura Gestionada</a></li>
+            <li><a href="#servicios">Seguridad & Compliance</a></li>
+            <li><a href="#servicios">Data & Analytics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#testimonios">Casos de Éxito</a></li>
+            <li><a href="#contacto">Carreras</a></li>
+            <li><a href="#contacto">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:hola@nimbussolutions.io">hola@nimbussolutions.io</a></li>
+            <li><a href="tel:+541140000000">+54 11 4000-0000</a></li>
+            <li><span>Av. Corrientes 1234, CABA</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Nimbus Solutions. Todos los derechos reservados.</p>
+        <div class="footer__legal">
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+# Rol
+Actuás como desarrollador front-end senior especializado en diseño web 
+moderno y experiencia de usuario. Tu tarea es construir una landing page 
+profesional, completa y lista para desplegar.
+
+# Contexto del proyecto
+La landing page es para una consultora de software y servicios cloud 
+ficticia llamada "Nimbus Solutions". La empresa ofrece migración a la nube, 
+desarrollo de software a medida e infraestructura gestionada. El público 
+objetivo son empresas medianas que quieren modernizar sus sistemas. El tono 
+debe ser profesional, confiable y tecnológico.
+
+# Tarea
+Generá una landing page de una sola página (single page) usando únicamente 
+HTML, CSS y JavaScript vanilla (sin frameworks, sin librerías externas, sin 
+dependencias de build). El resultado debe poder abrirse directamente con 
+doble clic en un archivo index.html y verse correctamente.
+
+# Secciones obligatorias (en este orden)
+1. Header: barra de navegación fija arriba con el logo "Nimbus Solutions" a 
+   la izquierda y un menú con enlaces a cada sección (Inicio, Sobre Nosotros, 
+   Servicios, Testimonios, Contacto). En mobile, el menú debe colapsar en un 
+   botón hamburguesa funcional.
+2. Hero Section: título impactante, subtítulo descriptivo y un botón de 
+   llamada a la acción (CTA) bien visible. Fondo atractivo.
+3. Sobre Nosotros: párrafo descriptivo de la empresa más algún dato o cifra 
+   destacada (ej. años de experiencia, proyectos completados).
+4. Servicios: mínimo 3 tarjetas, cada una con ícono, título y descripción 
+   breve de un servicio.
+5. Testimonios: mínimo 3 reseñas de clientes, cada una con nombre, cargo/
+   empresa y el texto del testimonio.
+6. Formulario de contacto: campos de nombre, email, asunto y mensaje, más un 
+   botón de envío. Solo maquetado visual, sin lógica de backend.
+7. Footer: información de la empresa y enlaces a redes sociales (íconos o 
+   texto).
+
+# Requisitos de diseño
+- Diseño moderno, limpio y distintivo. Evitá explícitamente el aspecto 
+  genérico de plantilla. Cuidá la jerarquía visual, el espaciado y la 
+  tipografía.
+- Totalmente responsive (debe verse bien en desktop, tablet y mobile).
+- Paleta de colores coherente y profesional acorde a una empresa de 
+  tecnología.
+- Animaciones o transiciones sutiles al hacer scroll o hover donde sumen.
+- Navegación con scroll suave entre secciones al hacer clic en el menú.
+
+# Requisitos técnicos
+- Entregá el código en archivos separados: index.html, styles.css y 
+  script.js. No uses CDN ni recursos externos que requieran conexión 
+  (excepto fuentes de Google Fonts si las necesitás).
+- Código limpio, ordenado y comentado en las secciones principales.
+- El sitio debe ser completamente funcional al abrir index.html.
+
+# Formato de salida
+Creá todos los archivos necesarios en el directorio de trabajo. Al terminar, 
+indicá brevemente qué archivos generaste y cómo abrir el sitio.
