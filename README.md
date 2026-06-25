@@ -33,7 +33,7 @@ Ambas landing pages fueron generadas con **el mismo prompt**, sin modificar el c
 ---
 
 ## Prompt exacto utilizado
-
+```
 # Rol
 Actuás como desarrollador front-end senior especializado en diseño web
 moderno y experiencia de usuario. Tu tarea es construir una landing page
@@ -90,7 +90,7 @@ doble clic en un archivo index.html y verse correctamente.
 # Formato de salida
 Creá todos los archivos necesarios en el directorio de trabajo. Al terminar,
 indicá brevemente qué archivos generaste y cómo abrir el sitio.
-\`\`\`
+```
 
 ---
 
