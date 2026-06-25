@@ -120,20 +120,12 @@ Ambos agentes resolvieron la consigna de forma autónoma y cumplieron con las si
 
 ## Estructura del repositorio
 
-\`\`\`
+```
 PFO2-Prompt-Engineering/
-├── index.html              # Portada principal con los 3 accesos
-├── prompt.txt              # Prompt exacto utilizado (texto plano)
-├── cursor_composer2.5/     # Landing generada por el Agente 1
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── claudecode_sonnet4.6/   # Landing generada por el Agente 2
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── capturas/               # Capturas de pantalla de ambos sitios
-│   ├── landing-cursor.png
-│   └── landing-claude.png
-└── README.md               # Este archivo
-\`\`\`
+├── index.html
+├── prompt.txt
+├── cursor_composer2.5/
+├── claudecode_sonnet4.6/
+├── capturas/
+└── README.md
+```
