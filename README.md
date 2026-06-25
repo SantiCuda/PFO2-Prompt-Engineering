@@ -34,7 +34,6 @@ Ambas landing pages fueron generadas con **el mismo prompt**, sin modificar el c
 
 ## Prompt exacto utilizado
 
-\`\`\`
 # Rol
 Actuás como desarrollador front-end senior especializado en diseño web
 moderno y experiencia de usuario. Tu tarea es construir una landing page
